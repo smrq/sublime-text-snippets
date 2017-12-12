@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './${TM_FILENAME/(.+)\..+|.*/$1/:Component}.scss';
+
+export default function ${TM_FILENAME/(.+)\..+|.*/$1/:Component}(props) {
+	return (
+
+	);
+}
+
+${TM_FILENAME/(.+)\..+|.*/$1/:Component}.propTypes = {
+	$3
+};
+]]></content>
+	<tabTrigger>rfc</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

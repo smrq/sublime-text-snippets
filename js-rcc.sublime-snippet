@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
+import styles from './${TM_FILENAME/(.+)\..+|.*/$1/:Component}.scss';
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:Component} extends PureComponent {
+	static propTypes = {
+
+	};
+
+	constructor(props) {
+		super(props);
+	}
+
+	render() {
+		return (
+			${0}
+		);
+	}
+}
+
+export default ${TM_FILENAME/(.+)\..+|.*/$1/:Component};
+]]></content>
+	<tabTrigger>rcc</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

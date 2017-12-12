@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[PropTypes.$1${2:.isRequired}]]></content>
+	<tabTrigger>prop</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
